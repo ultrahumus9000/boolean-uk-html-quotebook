@@ -69,7 +69,7 @@ blockquote {
   border-radius: 20px;
   font-family: "New Tegomin";
   display: grid;
-  grid-template-columns: 70ch;
+  grid-template-columns: 45ch;
 }
 p {
   line-height: 1.5rem;
