@@ -1,0 +1,76 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  grid-template:
+    "header" 100px
+    "main" 1fr/
+    1fr;
+}
+/* first header */
+header {
+  grid-area: header;
+  font-size: 2rem;
+  background-color: coral;
+  padding-left: 20px;
+  color: aliceblue;
+  display: grid;
+  align-content: center;
+}
+
+/* main content  */
+main {
+  display: grid;
+  grid-area: main;
+  grid-template:
+    "author" minmax(500px, 1fr)
+    "music" minmax(500px, 1fr) /
+    1fr;
+  grid-gap: 10px;
+}
+
+.author {
+  grid-area: author;
+  display: grid;
+  grid-template:
+    "headtwo" 100px
+    "quote" 1fr/
+    1fr;
+}
+.music {
+  display: grid;
+  grid-area: music;
+  grid-template:
+    "headtwo" 100px
+    "quote" 1fr/
+    1fr;
+}
+
+h2 {
+  grid-area: headtwo;
+  place-content: center;
+  display: grid;
+  background-color: rgb(45, 245, 245);
+}
+.quote {
+  grid-area: quote;
+  display: grid;
+  gap: 20px;
+  place-content: center;
+}
+
+blockquote {
+  background-color: rgb(229, 245, 208);
+  padding: 20px;
+  border-radius: 20px;
+  font-family: "New Tegomin";
+  display: grid;
+  grid-template-columns: 70ch;
+}
+p {
+  line-height: 1.5rem;
+}
