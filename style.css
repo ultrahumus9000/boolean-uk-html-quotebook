@@ -55,6 +55,7 @@ h2 {
   display: grid;
   gap: 20px;
   place-content: center;
+  margin: 10px;
 }
 
 blockquote {
@@ -64,6 +65,7 @@ blockquote {
   font-family: "New Tegomin";
   display: grid;
   grid-template-columns: 28ch;
+
 }
 .author blockquote{
 
@@ -73,5 +75,5 @@ blockquote {
   background-color: rgb(229, 245, 208);
 }
 p {
-  line-height: 1.5rem;
+  line-height: 1.7rem;
 }
