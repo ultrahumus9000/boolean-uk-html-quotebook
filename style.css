@@ -64,7 +64,7 @@ blockquote {
   border-radius: 20px;
   font-family: "New Tegomin";
   display: grid;
-  grid-template-columns: 28ch;
+  grid-template-columns: 20ch;
 
 }
 .author blockquote{
